@@ -1,0 +1,28 @@
+        OleDbConnection con = new OleDbConnection(@"Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Users\apene\Documents\DisenyoInterfaces1.mdb");
+
+
+        private void btnAdd_Click(object sender, EventArgs e)
+        {
+            con.Open();
+            OleDbCommand cmd = con.CreateCommand();
+            cmd.CommandType = CommandType.Text;
+            cmd.CommandText = "insert into Profesores(Nombre,Despacho) values ('" + textBoxName.Text + "', '" + textBoxOffice.Text + "')";
+            cmd.ExecuteNonQuery();
+            con.Close();
+            MessageBox.Show("Añadido correctamente", "Win");
+
+        }
+
+        private void btnShow_Click(object sender, EventArgs e)
+        {
+            con.Open();
+            OleDbCommand cmd = con.CreateCommand();
+            cmd.CommandType = CommandType.Text;
+            cmd.CommandText = "select * from Profesores";
+            DataTable dt = new DataTable();
+            OleDbDataAdapter da = new OleDbDataAdapter(cmd);
+            da.Fill(dt);
+            dgvTeachers.DataSource = dt;
+            con.Close();
+
+        }

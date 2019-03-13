@@ -1,0 +1,11 @@
+C:\Users\apene\source\repos\RunnerManager\RunnerManager1\obj\Debug\RunnerManager1.csprojAssemblyReference.cache
+C:\Users\apene\source\repos\RunnerManager\RunnerManager1\obj\Debug\RunnerManager1.Form1.resources
+C:\Users\apene\source\repos\RunnerManager\RunnerManager1\obj\Debug\RunnerManager1.Properties.Resources.resources
+C:\Users\apene\source\repos\RunnerManager\RunnerManager1\obj\Debug\RunnerManager1.csproj.GenerateResource.cache
+C:\Users\apene\source\repos\RunnerManager\RunnerManager1\obj\Debug\RunnerManager1.csproj.CoreCompileInputs.cache
+C:\Users\apene\source\repos\RunnerManager\RunnerManager1\bin\Debug\RunnerManager1.exe.config
+C:\Users\apene\source\repos\RunnerManager\RunnerManager1\bin\Debug\RunnerManager1.exe
+C:\Users\apene\source\repos\RunnerManager\RunnerManager1\bin\Debug\RunnerManager1.pdb
+C:\Users\apene\source\repos\RunnerManager\RunnerManager1\obj\Debug\RunnerManager1.exe
+C:\Users\apene\source\repos\RunnerManager\RunnerManager1\obj\Debug\RunnerManager1.pdb
+C:\Users\apene\source\repos\RunnerManager\RunnerManager1\bin\Debug\Runners.mdb
